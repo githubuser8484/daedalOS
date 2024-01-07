@@ -1,0 +1,108 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:bundle-analyzer": {
+      "name": "build:bundle-analyzer",
+      "command": "yarn build:bundle-analyzer",
+      "runAtStart": false
+    },
+    "build:fs": {
+      "name": "build:fs",
+      "command": "yarn build:fs",
+      "runAtStart": false
+    },
+    "build:minify": {
+      "name": "build:minify",
+      "command": "yarn build:minify",
+      "runAtStart": false
+    },
+    "build:prebuild": {
+      "name": "build:prebuild",
+      "command": "yarn build:prebuild",
+      "runAtStart": false
+    },
+    "docker:build": {
+      "name": "docker:build",
+      "command": "yarn docker:build",
+      "runAtStart": false
+    },
+    "docker:run": {
+      "name": "docker:run",
+      "command": "yarn docker:run",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "dev:ssl": {
+      "name": "dev:ssl",
+      "command": "yarn dev:ssl",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "yarn e2e",
+      "runAtStart": false
+    },
+    "e2e:ui": {
+      "name": "e2e:ui",
+      "command": "yarn e2e:ui",
+      "runAtStart": false
+    },
+    "eslint": {
+      "name": "eslint",
+      "command": "yarn eslint",
+      "runAtStart": false
+    },
+    "export": {
+      "name": "export",
+      "command": "yarn export",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "serve": {
+      "name": "serve",
+      "command": "yarn serve",
+      "runAtStart": false
+    },
+    "stylelint": {
+      "name": "stylelint",
+      "command": "yarn stylelint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "unused-exports": {
+      "name": "unused-exports",
+      "command": "yarn unused-exports",
+      "runAtStart": false
+    }
+  }
+}
